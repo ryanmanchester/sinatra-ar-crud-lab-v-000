@@ -19,6 +19,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/posts' do
-    'Hello Wolrd'
+    'Hello World'
   end
 end
