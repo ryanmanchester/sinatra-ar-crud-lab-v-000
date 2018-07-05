@@ -35,6 +35,5 @@ class ApplicationController < Sinatra::Base
 
   patch '/posts/:id' do
     @post.save
-
   end
 end
