@@ -15,7 +15,7 @@ class ApplicationController < Sinatra::Base
 
   post '/posts' do
     Post.create(params)
-    redirect to '/posts'
+    redirect to('/posts')
   end
 
   get '/posts' do
