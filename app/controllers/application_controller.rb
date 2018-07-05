@@ -19,6 +19,6 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/posts' do
-    erb :index
+    'Hello Wolrd'
   end
 end
