@@ -14,9 +14,10 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/posts' do
+    binding.pry
     @post = Post.create(params)
     redirect to '/posts'
-    binding.pry
+  
   end
 
   get '/posts' do
