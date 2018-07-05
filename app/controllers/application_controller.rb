@@ -21,6 +21,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/posts' do
+    binding.pry
     'Hello World'
   end
 end
