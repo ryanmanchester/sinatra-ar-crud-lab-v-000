@@ -34,6 +34,6 @@ class ApplicationController < Sinatra::Base
   end
 
   patch '/posts/:id' do
-    Post.update_all
+    binding.pry
   end
 end
